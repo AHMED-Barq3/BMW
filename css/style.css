@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+header {
+    background-color: aliceblue;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+
+}
+
+.Logo{
+    text-decoration: none;
+    color:darkcyan;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a{
+    color: darkcyan;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover{
+    color:dimgrey;
+}
+
+section{
+    padding: 100px 200px;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/m3.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.title {
+    margin-bottom: 200px;
+    
+}
+
+.main h2{
+    color: aliceblue;
+    font-size: 3.1em;
+    font-weight: 330;
+    direction: ltr;
+}
+
+.main h3 {
+    color:azure;
+    font-size: 30px;
+    font-weight: 280;
+    margin-top: 10px;
+    direction: ltr;
+}
+.main h3 span {
+    margin-top: 1px;
+}
+
+.ds2-font-xxl, h2 {
+    direction: rtl;
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 300;
+}
+
+.ds2-font-m, h3 {
+    direction: rtl;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 300;
+}
+
+.text {
+    direction: rtl;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-left: 15px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 300;
+}
+
+.g80{
+position: relative;
+padding: 0;
+margin-top: 30px;
+margin-bottom: 30px;
+width: 100%;
+height: auto;
+}
+
+.h33 {
+    direction: rtl;
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 300;
+}
+.M3int h4{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 300;
+}
+
+.M3int{
+    direction: rtl;
+    padding-right: 15px;
+}
+
+.M3 {
+    position: relative;
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: auto;
+}
+ .m3-showroom-intro {
+    padding: 0 45px;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+ }
+ .m3-showroom{
+    margin-top: 1px;
+    margin-bottom: 30px;
+ }
+
+ .m3-font{
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 300;
+}
+
+.m3-font-m{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.m3-output {
+    width: 75%;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 300;
+    padding-left: 15px;
+}
+
+#p3 {
+    font-size: 30px;
+    font-weight: 400;
+    padding: 30px;
+    
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    font-size: 21px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    list-style-position: outside;
+}
+
+.TITLE {
+    display: flex;
+    justify-content: center;
+    color: darkcyan;
+    font-size: 2.2em;
+    font-weight: 600;
+    margin-bottom: 30px;
+
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.modles {
+    background-color: rgb(10, 17, 17);
+}
+
+.modles .content {
+    margin-top: 30px;
+}
+
+.modles-card {
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.modles-card:hover {
+    transform: scale(1.1);
+}
+
+.modles-img img {
+    width: 100%;
+}
+
+.modles-card:hover .modles-img{
+   opacity: 0.9;
+}
+
+.modles-info {
+    padding: 1em;
+
+}
+
+.modles-category {
+    font-size: 0.8em;
+    color: black;
+}
+
+.modles-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px; 
+}
+
+.more-details {
+    text-decoration: none;
+    color: darkcyan;
+}
+
+.more-details:hover {
+    color:burlywood;
+}
+
+.card {
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card .icon {
+    color: darkcyan;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3{
+    color:darkcyan;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.content .icon {
+    font-size: 4em;
+}
+
+.social-icons a {
+    color:darkcyan;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+
+.footer{
+    background-color: rgb(10, 17, 17);
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+    
+
+
+
